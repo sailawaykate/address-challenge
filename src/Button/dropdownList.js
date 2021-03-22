@@ -4,7 +4,7 @@ import '../App.css';
 const listCls = "listCls";
 
 const DropDownList = ({ data = [], setOpen }) => (
-    <div className="dropBox">
+    <div className="dropbox">
         <ul>
             {data.map((item, i) => (
                 <li key={i} className={listCls} onClick={() => setOpen(false)}>
