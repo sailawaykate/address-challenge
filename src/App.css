@@ -1,5 +1,6 @@
 .dropdown {
   position: absolute;
+  padding-left: 20px;
 }
 
 ul {
@@ -15,4 +16,15 @@ li {
 li:hover {
   background-color: rgba(0, 0, 0, 0.14);
   cursor: pointer;
+}
+
+.app-heading {
+  padding-left: 5%;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 90%;
+  position: absolute;
+  left: 55%;
 }

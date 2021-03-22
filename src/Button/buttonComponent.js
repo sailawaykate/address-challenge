@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './button';
 import DropDownList from './dropdownList';
+import '../App.css';
 
 //TODO: make this a variable loaded from an api call
 const listData = new Array(3).fill("blah");
